@@ -71,3 +71,7 @@ resource "aws_default_security_group" "default-sg" {
     Name = "${var.env_prefix}-default-sg"
   }
 }
+
+resource "aws_instance" "myapp-server" {
+  
+}
